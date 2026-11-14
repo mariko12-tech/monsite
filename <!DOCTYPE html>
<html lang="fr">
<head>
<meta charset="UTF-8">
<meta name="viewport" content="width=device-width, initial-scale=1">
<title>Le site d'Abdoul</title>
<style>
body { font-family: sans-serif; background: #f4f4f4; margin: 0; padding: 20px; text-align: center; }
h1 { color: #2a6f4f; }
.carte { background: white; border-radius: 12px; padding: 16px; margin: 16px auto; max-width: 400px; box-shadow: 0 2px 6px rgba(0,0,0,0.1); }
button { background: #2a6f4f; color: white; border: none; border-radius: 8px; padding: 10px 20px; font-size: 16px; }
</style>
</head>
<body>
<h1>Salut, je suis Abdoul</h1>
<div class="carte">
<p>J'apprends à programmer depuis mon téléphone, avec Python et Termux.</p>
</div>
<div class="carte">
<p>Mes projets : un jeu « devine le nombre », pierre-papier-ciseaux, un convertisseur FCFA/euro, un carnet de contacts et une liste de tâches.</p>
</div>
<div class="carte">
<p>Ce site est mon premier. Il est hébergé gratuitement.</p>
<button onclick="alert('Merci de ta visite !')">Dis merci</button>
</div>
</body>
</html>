@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Le site d'Abdoul</title>
+<style>
+body { font-family: sans-serif; background: #f4f4f4; margin: 0; padding: 20px; text-align: center; }
+h1 { color: #2a6f4f; }
+.carte { background: white; border-radius: 12px; padding: 16px; margin: 16px auto; max-width: 400px; box-shadow: 0 2px 6px rgba(0,0,0,0.1); }
+button { background: #2a6f4f; color: white; border: none; border-radius: 8px; padding: 10px 20px; font-size: 16px; }
+</style>
+</head>
+<body>
+<h1>Salut, je suis Abdoul</h1>
+<div class="carte">
+<p>J'apprends à programmer depuis mon téléphone, avec Python et Termux.</p>
+</div>
+<div class="carte">
+<p>Mes projets : un jeu « devine le nombre », pierre-papier-ciseaux, un convertisseur FCFA/euro, un carnet de contacts et une liste de tâches.</p>
+</div>
+<div class="carte">
+<p>Ce site est mon premier. Il est hébergé gratuitement.</p>
+<button onclick="alert('Merci de ta visite !')">Dis merci</button>
+</div>
+</body>
+</html>
